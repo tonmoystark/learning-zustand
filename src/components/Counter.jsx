@@ -1,4 +1,4 @@
-import { useCounterStore } from "../store/userCounterStore.js"
+import { useCounterStore } from "../store/useCounterStore.js"
 
 const Counter = () => {
 

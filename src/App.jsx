@@ -1,4 +1,5 @@
 import Counter from "./components/Counter"
+import UserLogInOut from "./components/UserLogInOut"
 
 function App() {
 
@@ -8,6 +9,7 @@ function App() {
 
       <main>
         <Counter /> 
+        <UserLogInOut />
       </main>
     </div>
   )
