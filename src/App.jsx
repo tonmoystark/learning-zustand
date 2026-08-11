@@ -1,4 +1,5 @@
 import Counter from "./components/Counter"
+import Cart from "./components/shopping-cart/Cart"
 import UserLogInOut from "./components/UserLogInOut"
 
 function App() {
@@ -10,6 +11,12 @@ function App() {
       <main>
         <Counter /> 
         <UserLogInOut />
+        <div>
+          <h1>Shopping Cart</h1>
+          <div className="flex flex-wrap gap-2">
+            <Cart />
+          </div>
+        </div>
       </main>
     </div>
   )
